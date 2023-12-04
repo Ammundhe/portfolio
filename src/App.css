@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "robotBold";
+    src:local("robotBold"),url(./Assets/Roboto/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "robotLight";
+    src:local("robotLight"),url(./Assets/Roboto/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "robotMedium";
+    src:local("robotMedium"),url(./Assets/Roboto/Roboto-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "robotRegular";
+    src:local("robotRegular"),url(./Assets/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "robotThin";
+    src:local("robotThin"),url(./Assets/Roboto/Roboto-Thin.ttf) format("truetype");
+}
+
+:root{
+    --bold-font-family:robotBold;
+    --medium-font-family:robotMedium;
+    --regular-font-family:robotRegular;
+    --thin-font-family:robotThin;
+    --primary-grey-I:#161A30;
+    --primary-grey-II:#31304D;
+    --primary-grey-III:#B6BBC4;
+    --primary-grey-IV:#F0ECE5;
+    --primary-red-I:#F31559;
+    --primary-red-II:#FF4B91;
+    --primary-red-III:#FF8080;
+    --primary-red-IV:#FFB07F;
+    --primary-blue-I:#39A7FF;
+    --primary-blue-II:#87C4FF;
+    --primary-blue-III:#87C4FF;
+    --primary-blue-IV:#87C4FF;
+    --primary-pink-I:#FFA1F5;
+    --primary-pink-II:#FFB6D9;
+    --primary-pink-III:#EDB7ED;
+    --primary-pink-IV:#FDE5EC;
+    --primary-green-I:#98D8AA;
+    --primary-green-II:#A8DF8E;
+    --primary-green-III:#C7F2A4;
+    --primary-green-IV:#E1FFB1;
+    --primary-yellow-I:#FFF78A;
+    --primary-yellow-II:#F4F27E;
+    --primary-yellow-III:#F1EB90;
+    --primary-yellow-IV:#FBECB2;
+    --primary-purple-I:#7071E8;
+    --primary-purple-II:#8E8FFA;
+    --primary-purple-III:#B15EFF;
+    --primary-purple-IV:#F1EAFF;
+    --primary-white:#FFFFFF;
+    --shadow-card-grey:0px 4px 8px rgba(139, 138, 140, 0.25);
+    --shadow-button-grey:0px 2px 4px rgba(139, 138, 140, 0.20);
+    --shadow-blue-button:0px 2px 4px 0px rgba(40, 132, 255, 0.25);
+    --shadow-red-button:0px 2px 4px rgba(237, 33, 50, 0.25);
+    --shadow-green-button:0px 2px 4px 0px rgba(6, 191, 82, 0.25);;
+    --shadow-purple-button:0px 2px 4px rgba(65, 42, 207, 1);
+    --drop-shadow-blue:0px 2px 4px 0px rgba(4, 95, 216, 0.25);
+}
